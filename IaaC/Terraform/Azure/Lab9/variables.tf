@@ -1,6 +1,6 @@
 variable "prefix" {
   description = "The prefix used for all resources in this example"
-  default     = "it"
+  default     = "itea2019"
 }
 
 variable "location" {
