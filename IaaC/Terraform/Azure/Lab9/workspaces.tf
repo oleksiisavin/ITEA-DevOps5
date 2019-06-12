@@ -1,11 +1,11 @@
 terraform {
   backend "azurerm" {
-    storage_account_name = "terraformv1"
-    container_name       = "tera"
+    storage_account_name = "forterraform"
+    container_name       = "terra"
     key                  = "dev.terraform.tera"
 
     # rather than defining this inline, the Access Key can also be sourced
     # from an Environment Variable - more information is available below.
-    access_key = "d44RgCHunIPF9HqWi3cOn0cqkOtEJbT5rN4sglVXSjVkKZPxSG7Rs9VL3hcu3hxE/2+xGJw7Oe6f+rC2B4oqXg=="
+    access_key = "5NdTkOQeb852ysUKVKmCma26et5H9kpGjZ6ZBpG5LykznMIl1DLV61byPD2c8J/yYfBOFc8RIbK8OhXB+k1ylA=="
   }
 }
